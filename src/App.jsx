@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import LoadingBar from 'react-top-loading-bar'
 import "./App.css";
-import LoginPage from "./components/LoginPage";
 import Navigation from "./components/NavigationBar";
-import HomePage from "./components/HomePage";
-import { Route, Routes, useLocation } from "react-router-dom";
+import Home from './Pages/Home';
+import LoginPage from './components/LoginPage';
 
 function App() {
   const [progress, setProgress] = useState(0)
@@ -24,9 +24,9 @@ function App() {
       <Navigation />
 
       <Routes>
-        <Route exact path="/" element={<HomePage />} />
+        <Route exact path="/" element={<Home />} />
         <Route exact path="/Loading" element={<LoadingBar />} />
-        <Route path="/LoginPage" element={<LoginPage />} />
+        <Route path="/Login" element={<LoginPage/>} />
       </Routes>
     </div>
   );

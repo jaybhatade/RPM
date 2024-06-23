@@ -46,7 +46,7 @@ function Navigation() {
               </Link>
             </li> 
             <li className="m-4 text-xl cursor-pointer  transition duration-150 ease-in-out ">
-              <Link to="/LoginPage">
+              <Link to="/Login">
                 <button className="py-2  flex w-56 items-center justify-center hover:text-yellow-300 hover:bg-indigo-900 bg-indigo-700 gap-2 rounded-full transition-all duration-300">Company Login <FaArrowRightLong /></button>
               </Link>
             </li>
