@@ -22,11 +22,11 @@ function App() {
         onLoaderFinished={() => setProgress(0)}
       />
       <Navigation />
-      
+
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/Loading" element={<LoadingBar />} />
-        <Route path="/login" element={<LoginPage />} />
+        <Route path="/LoginPage" element={<LoginPage />} />
       </Routes>
     </div>
   );
