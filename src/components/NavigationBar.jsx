@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaApple } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";

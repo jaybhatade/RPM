@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import LoadingBar from 'react-top-loading-bar'
 import "./App.css";
 import Navigation from "./components/NavigationBar";
